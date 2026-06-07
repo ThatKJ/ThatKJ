@@ -11,7 +11,7 @@
  ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-### CS @ Newton School of Science & Technology, Bangalore · Class of 2029
+### CS @ Newton School of Science & Technology, Bangalore · Class of 2030
 
 *Building AI systems that actually do things.*
 
@@ -95,9 +95,9 @@ A tool that transforms rough app ideas into structured build packages — PRD, p
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ThatKJ&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&hide_border=false)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ThatKJ&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ThatKJ&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=8b949e)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ThatKJ&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=8b949e&langs_count=6)
 
 </div>
 
