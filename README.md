@@ -33,52 +33,45 @@ Currently targeting **GSoC 2027** — learning how large codebases work from the
 
 ---
 
-## What I'm Building
+## Projects
 
-### AXIOM — Personal AI Operating System
-A Jarvis-inspired personal AI OS with a full multi-layer architecture: voice interface, LLM brain, tool execution engine, memory system, and plugin layer. Built in Python, designed to be run by one person with a step-by-step 12-week solo roadmap. The goal: a genuinely agentic system that remembers context, uses tools, and acts — not just a wrapper around a chat API.
+### [tokencalc](https://github.com/ThatKJ/tokencalc)
+Compare token counts and API costs across 17 frontier AI models instantly. No API key required — 100% client-side. Built with Astro.
 
-`Python` `LLM Orchestration` `Voice I/O` `Memory Graphs` `Plugin Architecture`
-
----
-
-### UAE Automation Agency — AI Lead Generation Pipeline
-A production n8n workflow for an AI-powered B2B lead gen system targeting UAE businesses. OpenStreetMap for prospecting, Groq (Llama 3.3 70B) for AI qualification and personalized email generation, Brevo for sending, Notion as the CRM. Includes a full Notion CRM database with pipeline, hot leads, and follow-up calendar views.
-
-`n8n` `Groq` `OpenStreetMap` `Brevo` `Notion MCP` `Lead Generation`
+`Astro` `TypeScript` `OpenAI` `Anthropic` `Gemini` `Developer Tools`
 
 ---
 
-### WhatsApp AI Assistant — Cake Palace (UAE)
-End-to-end delivery for a UAE premium bakery client: a 9-slide investor-grade pitch deck covering the automation business case, and a full Product Requirements Document for a WhatsApp AI assistant product. Priced at 5,000 AED one-time + monthly retainer. Built to be sold, not just shown.
+### [cake-palace](https://github.com/ThatKJ/cake-palace)
+Next-generation AI Bakery OS for a UAE client. Powers WhatsApp custom cake orders, CRM, and branch logistics for Cake Palace UAE.
 
-`Product Strategy` `PRD Writing` `Client Delivery` `WhatsApp Automation`
-
----
-
-### ShopX — Hackathon E-Commerce App
-Apple-inspired minimal e-commerce web app built during a hackathon via Lovable. Emphasis on restraint: clean product browsing, no visual noise, a design language that respects the product more than it shows off the developer.
-
-`Lovable` `E-Commerce` `Minimalist Design` `Web App`
+`Next.js` `TypeScript` `Supabase` `WhatsApp Automation` `AI` `Client Work`
 
 ---
 
-### Vibe Coder Agent Builder *(Concept)*
-A tool that transforms rough app ideas into structured build packages — PRD, prompt sequences, tech stack recommendations, and known failure modes — targeting non-technical builders using Cursor, Bolt, Lovable, and v0. The differentiator is **constraint enforcement**: scope rejection rather than just output generation. Still deciding between a tight v1 and the full system.
+### [Portfolio](https://github.com/ThatKJ/Portfolio)
+Personal portfolio built with React and Framer Motion. Clean UI with project showcases, skills, and contact section.
 
-`Product Concept` `AI Tooling` `Developer Experience`
+`React` `JavaScript` `Framer Motion` `Web Design`
+
+---
+
+### [AI-Powered-Writing-Assistant](https://github.com/ThatKJ/AI-Powered-Writing-Assistant)
+An AI writing assistant built in HTML/JS.
+
+`HTML` `JavaScript` `AI` `Writing Tools`
 
 ---
 
 ## Stack
 
-**Languages** — Python · JavaScript · Java · Node.js
+**Languages** — TypeScript · JavaScript · Python · Java
 
-**AI & Automation** — n8n · Groq · OpenAI-compatible APIs · Prompt Engineering · Agent Architecture
+**Frameworks** — Next.js · React · Astro
 
-**Web** — React (learning) · Lovable · v0 · Bolt · Cursor
+**AI & Automation** — Supabase · OpenAI-compatible APIs · Prompt Engineering · n8n
 
-**Tools** — Notion · Git · Brevo · ScraperAPI · OpenStreetMap Overpass API
+**Tools** — Git · Framer Motion · Tailwind CSS · Vercel
 
 ---
 
@@ -88,18 +81,6 @@ A tool that transforms rough app ideas into structured build packages — PRD, p
 - Working through a structured GSoC 2027 prep roadmap: Git workflow, Python depth, testing, navigating large open-source codebases
 - Near-term goal: first merged PR to a real open-source project
 - Designing a portfolio site — rejecting glassmorphism, chasing something genuinely distinctive
-
----
-
-## Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ThatKJ&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ThatKJ&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=8b949e&langs_count=6)
-
-</div>
 
 ---
 
