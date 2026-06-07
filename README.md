@@ -15,7 +15,7 @@
 
 *Building AI systems that actually do things.*
 
-[![Twitter/X](https://img.shields.io/badge/X-@ThatKJ-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/ThatKJ)
+[![Twitter/X](https://img.shields.io/badge/X-@kirtan026832614-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/kirtan026832614)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kirtan--joshi2412-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kirtan-joshi2412)
 [![GitHub](https://img.shields.io/badge/GitHub-ThatKJ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ThatKJ)
 
