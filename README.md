@@ -3,6 +3,7 @@
 <img
 src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Kirtan%20Joshi&fontAlign=50&fontAlignY=38&desc=systems%20%E2%80%A2%20open%20source%20%E2%80%A2%20ai%20%E2%80%A2%20robotics&descAlign=50&descAlignY=60&animation=fadeIn&color=gradient"
 width="100%"
+alt="Kirtan Joshi"
 />
 
 <a href="https://git.io/typing-svg">
@@ -177,7 +178,6 @@ TypeScript · Data · Forecasting · Web
 </table>
 
 <details>
-
 <summary><b>More things I've built ↓</b></summary>
 
 <br/>
@@ -213,8 +213,6 @@ struct CurrentFocus {
     ],
 }
 
-<div align="center">
-
 I keep coming back to this loop:
 
         ┌───────────────┐
@@ -235,9 +233,9 @@ I keep coming back to this loop:
                 │
                 └──────────────→ repeat
 
-observe → reason → act → verify
-
-</div>
+<p align="center">
+  <strong>observe → reason → act → verify</strong>
+</p>
 
 04 / Stack
 
@@ -275,6 +273,7 @@ Open Source → debugging real issues in large codebases
 <img
 src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ThatKJ&theme=github_dark"
 width="95%"
+alt="Kirtan Joshi GitHub profile summary"
 />
 
 <br/><br/>
@@ -282,13 +281,12 @@ width="95%"
 <img
 src="https://github-readme-activity-graph.vercel.app/graph?username=ThatKJ&theme=github-compact&hide_border=true&area=true"
 width="95%"
+alt="Kirtan Joshi GitHub activity graph"
 />
 
 </div>
 
 06 / How I Build
-
-<div align="center">
 
 understand the problem
         │
@@ -309,19 +307,19 @@ make the system better
         │
         └──────────────→ repeat
 
-</div>
+I'm not trying to collect 50 technologies.
 
-I’m not trying to collect 50 technologies.
-
-I’m trying to get unusually good at understanding systems I didn't write, finding where reality disagrees with the assumptions, and fixing the right layer.
+I'm trying to get unusually good at understanding systems I didn't write, finding where reality disagrees with the assumptions, and fixing the right layer.
 
 Today that happens through:
 
-<div align="center">
-
-computer vision · control systems · AI agents · developer tools · open source
-
-</div>
+<p align="center">
+  <code>computer vision</code> ·
+  <code>control systems</code> ·
+  <code>AI agents</code> ·
+  <code>developer tools</code> ·
+  <code>open source</code>
+</p>
 
 <br/>
 
@@ -341,13 +339,6 @@ Computer Science · Bangalore · Systems · Open Source
 
 <br/><br/>
 
-working toward GSoC 2027
-
-<br/>
-
-<img
-src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=gradient"
-width="100%"
-/>
+<code>working toward GSoC 2027</code>
 
 </div>
