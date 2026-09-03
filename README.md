@@ -5,7 +5,7 @@
 ### `systems • open source • ai • robotics`
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+things+that+have+to+work.;AI+%C3%97+Systems+%C3%97+Open+Source;Learning+large+codebases+by+contributing+to+them.;Currently+building+vision-based+tracking+systems." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+systems+that+observe%2C+decide%2C+and+act.;Computer+Vision+%C3%97+Systems+%C3%97+Open+Source;Turning+real+bugs+into+upstream+pull+requests.;Learning+Rust+by+contributing.;GSoC+2027+is+the+target." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,8 +19,8 @@
 <a href="https://twitter.com/kirtan026832614">
   <img src="https://img.shields.io/badge/X-@kirtan026832614-000000?style=flat-square&logo=x&logoColor=white" />
 </a>
-<a href="mailto:kirtan12007@gmail.com">
-  <img src="https://img.shields.io/badge/Email-kirtan12007%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+<a href="mailto:kirtan120007@gmail.com">
+  <img src="https://img.shields.io/badge/Email-kirtan120007%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
 </a>
 
 </div>
@@ -33,8 +33,8 @@ $ whoami
 Kirtan Joshi
 Computer Science @ Newton School of Technology, Bangalore
 
-I like building systems where software has to observe,
-decide, act — and prove that it worked.
+I build systems that observe, decide, act —
+and make it obvious when they fail.
 
 Currently:
   → building computer-vision + control systems
@@ -43,23 +43,88 @@ Currently:
   → working toward GSoC 2027
 ```
 
-## 01 / Building
+---
+
+## 01 / Open Source
+
+I'm learning large codebases the way I think they should be learned:
+
+> **open the codebase → reproduce the bug → trace the system → change the smallest correct thing → test it → explain it upstream**
+
+### Recent upstream work
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### ⚡ Zed
+
+[`zed-industries/zed#63611`](https://github.com/zed-industries/zed/pull/63611)
+
+Fixed fallback behavior for files that have an image extension but aren't actually valid images, allowing the workspace to fall back to the editor correctly.
+
+`Rust` `async APIs` `workspace` `image viewer` `regression tests`
+
+</td>
+</tr>
+
+<tr>
+<td width="100%" valign="top">
+
+### 🔥 HADES CLI
+
+[`PareekshithPalat/HADES_CLI#32`](https://github.com/PareekshithPalat/HADES_CLI/pull/32)
+
+Restored native terminal text selection and copying by removing unnecessary global mouse capture from the TUI.
+
+`Rust` `Ratatui` `Crossterm` `terminal behavior`
+
+</td>
+</tr>
+
+<tr>
+<td width="100%" valign="top">
+
+### 🔥 HADES CLI
+
+[`PareekshithPalat/HADES_CLI#30`](https://github.com/PareekshithPalat/HADES_CLI/pull/30)
+
+Worked on cross-platform conversation import/export across HADES, ChatGPT, Claude and generic Markdown formats.
+
+`Rust` `storage` `serialization` `CLI`
+
+</td>
+</tr>
+</table>
+
+```text
+The goal isn't to collect contribution squares.
+
+The goal is to become useful inside codebases
+I didn't create.
+```
+
+**Target → Google Summer of Code 2027**
+
+---
+
+## 02 / Building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📡 [Team-Irodov-FSOC](https://github.com/ThatKJ/Team-Irodov-FSOC)
+### 📡 [FSOC](https://github.com/ThatKJ/FSOC)
 
-**Vision-based tracking for mobile free-space optical terminals.**
+**Vision-based tracking and control for mobile free-space optical terminals.**
 
-A closed-loop system that takes a moving optical terminal from:
+A closed-loop system built around:
 
-`camera → detection → tracking error → controller → actuation`
+`camera → detection → tracking error → controller → actuation → observation`
 
-Built around deterministic simulation, synthetic vision, beacon detection, PID control, telemetry and validation.
+The project includes deterministic simulation, synthetic camera rendering, beacon detection, PID control, telemetry, benchmarking and acceptance validation.
 
-**C++20 · OpenCV · CMake · Computer Vision · Control**
+**C++20 · OpenCV · CMake · Computer Vision · Control Systems**
 
 </td>
 
@@ -69,9 +134,9 @@ Built around deterministic simulation, synthetic vision, beacon detection, PID c
 
 **Outcome-underwriting infrastructure for autonomous agents.**
 
-An AI agent buys a **verified outcome at a fixed price** instead of paying for every failed attempt.
+Instead of paying for every failed AI-service attempt, an agent buys a **verified outcome at a fixed price**.
 
-Margin402 chooses providers, makes x402 payments, verifies results, retries, manages execution economics and either delivers the result or refunds the customer.
+Margin402 selects providers, makes x402 payments, verifies results, retries when necessary and manages the economics of delivering the final outcome.
 
 **TypeScript · Next.js · Algorand · x402 · Redis**
 
@@ -101,7 +166,7 @@ Search institutions, explore structured education profiles, manage personal goal
 
 **Energy intelligence and forecasting platform.**
 
-Built around monitoring electricity consumption, surfacing inefficiencies and using data to understand where energy is being wasted.
+Built around monitoring electricity consumption, forecasting usage and surfacing where energy is being wasted.
 
 **TypeScript · Data · Forecasting · Web**
 
@@ -111,73 +176,16 @@ Built around monitoring electricity consumption, surfacing inefficiencies and us
 
 <details>
 <summary><b>More things I've built ↓</b></summary>
+
 <br/>
 
 * 🎮 [**ring-escape**](https://github.com/ThatKJ/ring-escape) — timing game built in Python
-* 🧠 [**awoken.in**](https://github.com/ThatKJ/awoken.in) — AI / business intelligence platform
-* 🛠️ [**FolderPrettifier**](https://github.com/ThatKJ/FolderPrettifier) — small developer utility
+* 🧠 [**awoken.in**](https://github.com/ThatKJ/awoken.in) — AI + business intelligence platform
+* 🛠️ [**FolderPrettifier**](https://github.com/ThatKJ/FolderPrettifier) — lightweight developer utility
 * ✈️ [**Airline Reservation System**](https://github.com/ThatKJ/Airline-Reservation-System) — reservation system project
-* 🌐 [**Portfolio**](https://github.com/ThatKJ/Portfolio) — personal web portfolio
+* 🌐 [**Portfolio**](https://github.com/ThatKJ/Portfolio) — personal portfolio
 
 </details>
-
----
-
-## 02 / Open Source
-
-This is the part I'm deliberately getting better at:
-
-> **open an unfamiliar codebase → understand it → reproduce a real bug → change the smallest correct thing → test it → explain it upstream**
-
-### Recent upstream work
-
-<table>
-<tr>
-<td>
-
-**Zed**
-
-[`zed-industries/zed#63611`](https://github.com/zed-industries/zed/pull/63611)
-
-Fixed fallback behavior for files that have an image extension but aren't actually valid images.
-
-`Rust` `async APIs` `workspace` `image viewer` `regression tests`
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**HADES CLI**
-
-[`PareekshithPalat/HADES_CLI#32`](https://github.com/PareekshithPalat/HADES_CLI/pull/32)
-
-Restored native terminal mouse selection by removing unnecessary global mouse capture from the TUI.
-
-`Rust` `Ratatui` `Crossterm` `terminal behavior`
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**HADES CLI**
-
-[`PareekshithPalat/HADES_CLI#30`](https://github.com/PareekshithPalat/HADES_CLI/pull/30)
-
-Worked on cross-platform session import/export across HADES, ChatGPT, Claude and Markdown conversation formats.
-
-`Rust` `storage` `serialization` `CLI`
-
-</td>
-</tr>
-</table>
-
-**Long-term target:** become useful enough in a real open-source community that the contribution matters more than the application.
-
-`→ GSoC 2027`
 
 ---
 
@@ -191,25 +199,36 @@ struct CurrentFocus {
         "reading large codebases",
         "debugging from first principles",
         "testing",
-        "open-source contribution"
+        "open-source contribution",
     ],
 }
 ```
 
-I'm especially interested in the boundary between:
+I'm especially interested in systems that look like this:
 
 ```text
-PERCEPTION
-     ↓
-DECISION
-     ↓
-CONTROL / ACTION
-     ↓
-OBSERVATION
-     └──────────────→ repeat
+              ┌───────────────┐
+              │  PERCEPTION   │
+              └───────┬───────┘
+                      ↓
+              ┌───────────────┐
+              │   DECISION    │
+              └───────┬───────┘
+                      ↓
+              ┌───────────────┐
+              │ CONTROL / ACT │
+              └───────┬───────┘
+                      ↓
+              ┌───────────────┐
+              │  OBSERVATION  │
+              └───────┬───────┘
+                      │
+                      └────────────→ repeat
 ```
 
-Robotics, developer tools and autonomous software all eventually become some version of that loop.
+Robotics, autonomous agents and developer tooling all eventually become some version of:
+
+**observe → reason → act → verify**
 
 ---
 
@@ -221,9 +240,13 @@ Robotics, developer tools and autonomous software all eventually become some ver
 
 <img src="https://skillicons.dev/icons?i=cpp,rust,python,ts,js,java&perline=6" />
 
-### Build / Web / Data
+<br/>
+
+### Web / Backend / Data
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,postgres,supabase,docker&perline=6" />
+
+<br/>
 
 ### Tools
 
@@ -231,9 +254,13 @@ Robotics, developer tools and autonomous software all eventually become some ver
 
 </div>
 
-<sub>
-Rust is currently a learning / contribution focus — not pretending I've mastered it.
-</sub>
+<br/>
+
+```text
+Current systems focus → Rust + C++
+Current AI focus      → Python + Computer Vision
+Current OSS focus     → debugging real issues in large codebases
+```
 
 ---
 
@@ -249,27 +276,36 @@ Rust is currently a learning / contribution focus — not pretending I've master
 
 ---
 
-## 06 / The direction
-
-I'm not trying to collect 50 technologies.
-
-I'm trying to get unusually good at:
+## 06 / How I like to build
 
 ```text
 understand the problem
-        ↓
+        │
+        ▼
 understand the system
-        ↓
+        │
+        ▼
 build the smallest correct version
-        ↓
-measure whether it works
-        ↓
+        │
+        ▼
+measure what actually happened
+        │
+        ▼
 find what breaks
-        ↓
-make it better
+        │
+        ▼
+make the system better
+        │
+        └──────────────→ repeat
 ```
 
-Today that shows up as computer vision, AI agents, developer tooling and open source.
+I'm not trying to collect 50 technologies.
+
+I'm trying to get unusually good at **understanding systems I didn't write, finding where reality disagrees with the assumptions, and fixing the right layer.**
+
+Today that shows up as:
+
+`computer vision` · `control systems` · `AI agents` · `developer tools` · `open source`
 
 Tomorrow, probably something harder.
 
@@ -279,12 +315,16 @@ Tomorrow, probably something harder.
 
 ### Build things. Break assumptions. Read the source.
 
-<sub>CS · Bangalore · building toward open source and systems engineering</sub>
+<sub>Computer Science · Bangalore · Systems · Open Source</sub>
 
 <br/><br/>
 
 <a href="https://github.com/ThatKJ?tab=repositories"><b>repositories</b></a>
   ·   <a href="https://github.com/pulls?q=is%3Apr+author%3AThatKJ"><b>pull requests</b></a>
-  ·   <a href="mailto:kirtan12007@gmail.com"><b>contact</b></a>
+  ·   <a href="mailto:kirtan120007@gmail.com"><b>contact</b></a>
+
+<br/><br/>
+
+<sub>working toward GSoC 2027</sub>
 
 </div>
