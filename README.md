@@ -32,6 +32,7 @@ alt="Kirtan Joshi"
 
 <br/>
 
+<pre>
 $ whoami
 
 Kirtan Joshi
@@ -45,6 +46,7 @@ Currently:
   → contributing to real open-source codebases
   → going deeper into Rust, C++ and Python
   → working toward GSoC 2027
+</pre>
 
 01 / Open Source
 
@@ -98,8 +100,10 @@ Rust storage serialization CLI
 
 I don't want contribution squares.
 
+<pre>
 I want to become useful inside
 codebases I didn't create.
+</pre>
 
 <div align="center">
 
@@ -196,6 +200,7 @@ TypeScript · Data · Forecasting · Web
 
 03 / Current Focus
 
+<pre>
 struct CurrentFocus {
     systems: ["Rust", "C++"],
 
@@ -212,9 +217,11 @@ struct CurrentFocus {
         "open-source contribution",
     ],
 }
+</pre>
 
 I keep coming back to this loop:
 
+<pre>
         ┌───────────────┐
         │  PERCEPTION   │
         └───────┬───────┘
@@ -232,6 +239,7 @@ I keep coming back to this loop:
         └───────┬───────┘
                 │
                 └──────────────→ repeat
+</pre>
 
 <p align="center">
   <strong>observe → reason → act → verify</strong>
@@ -261,10 +269,12 @@ Tools
 
 <br/>
 
+<pre>
 Systems     → Rust + C++
 AI          → Python + Computer Vision
 Web         → TypeScript + Next.js
 Open Source → debugging real issues in large codebases
+</pre>
 
 05 / GitHub
 
@@ -298,6 +308,7 @@ alt="Kirtan Joshi GitHub contribution graph"
 
 06 / How I Build
 
+<pre>
 understand the problem
         │
         ▼
@@ -316,6 +327,7 @@ find what breaks
 make the system better
         │
         └──────────────→ repeat
+</pre>
 
 I'm not trying to collect 50 technologies.
 
