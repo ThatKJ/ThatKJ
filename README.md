@@ -279,10 +279,20 @@ alt="Kirtan Joshi GitHub profile summary"
 <br/><br/>
 
 <img
-src="https://github-readme-activity-graph.vercel.app/graph?username=ThatKJ&theme=github-compact&hide_border=true&area=true"
+src="https://ghchart.rshah.org/58A6FF/ThatKJ"
 width="95%"
-alt="Kirtan Joshi GitHub activity graph"
+alt="Kirtan Joshi GitHub contribution graph"
 />
+
+</div>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 </div>
 
