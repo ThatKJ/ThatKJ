@@ -1,3 +1,5 @@
+<!-- GitHub profile README for ThatKJ. Uses GitHub-supported Markdown and HTML. -->
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&amp;height=190&amp;color=0:0D1117,55:29214D,100:0D1117&amp;text=KIRTAN%20JOSHI&amp;fontColor=F0F6FC&amp;fontSize=48&amp;fontAlignY=44&amp;desc=AI%20%2F%20SOFTWARE%20%2F%20PRODUCTS&amp;descSize=15&amp;descAlignY=69" width="100%" alt="Kirtan Joshi — AI, software, and products" />
@@ -104,109 +106,200 @@ Selected work
 </tr>
 </table>
 
-More projects
+<div align="center">
 
-Project
+<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=MORE%20PROJECTS&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="More Projects" />
 
-What it does
+</div>
 
-ring-escape
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A Python/Pygame arcade game: rotate ring gaps, guide a ball outward, and progress through harder levels.
+<h3>🎮 <a href="https://github.com/ThatKJ/ring-escape">ring-escape</a></h3>
 
-FolderPrettifier
+A fast Python arcade game built around timing and control. Rotate the rings, line up the gaps, and guide the ball outward as every level gets harder.
 
-Organizes files into folders by type, with duplicate protection and optional timestamped names.
+<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Pygame-18181B?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Pygame" /></p>
 
-Airline Reservation System
+<a href="https://github.com/ThatKJ/ring-escape"><strong>View repository →</strong></a>
 
-A Python + MySQL booking system with seat selection, cancellations, user accounts, and admin tools.
+</td>
+<td width="50%" valign="top">
 
-Portfolio
+<h3>✨ <a href="https://github.com/ThatKJ/FolderPrettifier">FolderPrettifier</a></h3>
 
-My personal portfolio, built with React and Vite.
+A lightweight organizer for messy folders. It sorts files by type, handles duplicate names safely, and can add timestamps automatically.
+
+<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Cross--platform-18181B?style=flat-square" alt="Cross-platform" /></p>
+
+<a href="https://github.com/ThatKJ/FolderPrettifier"><strong>View repository →</strong></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>✈️ <a href="https://github.com/ThatKJ/Airline-Reservation-System">Airline Reservation System</a></h3>
+
+A terminal booking system with user accounts, flight search, seat selection, cancellations, booking history, reports, and admin controls.
+
+<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/MySQL-18181B?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1" alt="MySQL" /></p>
+
+<a href="https://github.com/ThatKJ/Airline-Reservation-System"><strong>View repository →</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🌐 <a href="https://github.com/ThatKJ/Portfolio">Portfolio</a></h3>
+
+My personal corner of the web for presenting the projects I build, the tools I use, and the ideas I am exploring.
+
+<p><img src="https://img.shields.io/badge/React-18181B?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/Vite-18181B?style=flat-square&amp;logo=vite&amp;logoColor=646CFF" alt="Vite" /></p>
+
+<a href="https://github.com/ThatKJ/Portfolio"><strong>View repository →</strong></a>
+
+</td>
+</tr>
+</table>
 
 <br />
-
-Contributions
-
-HADES CLI
-
-Two merged Rust contributions improving the terminal workflow:
-
-Native text selection and copying. Removed unnecessary mouse capture so users can select and copy terminal output normally. Merged · #32 ↗
-
-Conversation import and export. Added portable session history across HADES, ChatGPT, Claude, and Markdown formats, with format detection and tests. Merged · #30 ↗
-
-More work: Zed editor-fallback proposal · Next Bench documentation · All pull requests ↗
-
-<br />
-
-Toolkit
-
-Used across my projects and contributions.
 
 <div align="center">
 
-<p><strong>Languages</strong></p>
+<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=OPEN%20SOURCE&amp;fontSize=25&amp;fontColor=58A6FF&amp;fontAlignY=52" alt="Open Source Contributions" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="250" alt="Python, TypeScript, JavaScript, C++, Rust" />
-</picture>
+<p>Small, focused changes inside codebases I did not create.</p>
 
-<br />
+</div>
 
-<p><strong>Web &amp; data</strong></p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="300" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, Redis" />
-</picture>
+<h3>⌨️ Native terminal selection</h3>
 
-<br />
+Restored normal mouse selection and clipboard copying in HADES CLI by removing unnecessary global mouse capture.
 
-<p><strong>Build &amp; workflow</strong></p>
+<p><code>Rust</code> <code>Ratatui</code> <code>Crossterm</code></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="250" alt="Git, Docker, CMake, Linux, Vercel" />
-</picture>
+<a href="https://github.com/PareekshithPalat/HADES_CLI/pull/32"><img src="https://img.shields.io/badge/MERGED-PR%20%2332-238636?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="HADES CLI pull request 32 merged" /></a>
 
-<br />
-<br />
+</td>
+<td width="50%" valign="top">
 
-<p><sub>Computer vision &amp; inference: <strong>OpenCV · ONNX</strong></sub></p>
+<h3>↔️ Portable conversation history</h3>
+
+Added import and export across HADES, ChatGPT, Claude, and Markdown, including format detection, storage integration, and tests.
+
+<p><code>Rust</code> <code>Serialization</code> <code>CLI</code></p>
+
+<a href="https://github.com/PareekshithPalat/HADES_CLI/pull/30"><img src="https://img.shields.io/badge/MERGED-PR%20%2330-238636?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="HADES CLI pull request 30 merged" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/zed-industries/zed/pull/63611"><img src="https://img.shields.io/badge/ZED-EDITOR%20FALLBACK-18181B?style=flat-square&amp;logo=zedindustries&amp;logoColor=white" alt="Zed editor fallback proposal" /></a>
+<a href="https://github.com/sonamii/next-bench/pull/33"><img src="https://img.shields.io/badge/NEXT%20BENCH-DOCUMENTATION-18181B?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Next Bench documentation pull request" /></a>
+<a href="https://github.com/pulls?q=is%3Apr%20author%3AThatKJ%20-user%3AThatKJ"><img src="https://img.shields.io/badge/VIEW-ALL%20PULL%20REQUESTS-8B5CF6?style=flat-square&amp;logo=github&amp;logoColor=white" alt="View all pull requests" /></a>
 
 </div>
 
 <br />
 
-How I build
+<div align="center">
 
-I care about what happens after the first successful run: finding the failure cases, improving the interface, and writing enough documentation for someone else to pick up the project.
+<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=TOOLKIT&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="Toolkit" />
+
+<p><sub>TOOLS I HAVE USED TO SHIP PROJECTS, RUN EXPERIMENTS, AND CONTRIBUTE CODE</sub></p>
 
 <br />
 
-GitHub activity
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="260" alt="Python, TypeScript, JavaScript, C++, and Rust" />
+</picture>
+
+<p><code>Python</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>C++</code> · <code>Rust</code></p>
+
+<br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Kirtan's GitHub contribution activity, animated as a snake" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="315" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, and Redis" />
 </picture>
+
+<p><code>React</code> · <code>Next.js</code> · <code>Tailwind</code> · <code>PostgreSQL</code> · <code>Supabase</code> · <code>Redis</code></p>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="260" alt="Git, Docker, CMake, Linux, and Vercel" />
+</picture>
+
+<p><code>Git</code> · <code>Docker</code> · <code>CMake</code> · <code>Linux</code> · <code>Vercel</code></p>
+
+<br />
+
+<img src="https://img.shields.io/badge/COMPUTER%20VISION-OpenCV-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="Computer Vision with OpenCV" />
+<img src="https://img.shields.io/badge/INFERENCE-ONNX-005CED?style=for-the-badge&amp;logo=onnx&amp;logoColor=white" alt="Inference with ONNX" />
+
+</div>
+
+<br />
+
+<table>
+<tr>
+<td align="center">
+
+<h3>How I build</h3>
+
+<strong>Understand the problem → build the smallest useful version → test reality → improve the right layer.</strong>
+
+<br /><br />
+
+I care about what happens after the first successful run: failure cases, clear interfaces, reproducible results, and documentation someone else can follow.
+
+</td>
+</tr>
+</table>
 
 <br />
 
 <div align="center">
 
-Let's connect
+<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=GITHUB%20ACTIVITY&amp;fontSize=25&amp;fontColor=58A6FF&amp;fontAlignY=52" alt="GitHub Activity" />
 
-Tell me what you're building.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Kirtan's animated GitHub contribution activity" width="100%" />
+</picture>
 
-Email ↗   ·   LinkedIn   ·   X   ·   Repositories
+<br />
+<br />
+
+<a id="lets-connect"></a>
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=75&amp;text=LET'S%20CONNECT&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="Let's Connect" />
+
+<p><strong>Have an idea, a stubborn bug, or something worth building?</strong></p>
+
+<a href="mailto:kirtan120007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Kirtan" /></a>
+<a href="https://linkedin.com/in/kirtan-joshi2412"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Kirtan on LinkedIn" /></a>
+<a href="https://twitter.com/kirtan026832614"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Kirtan on X" /></a>
+<a href="https://github.com/ThatKJ?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Kirtan's GitHub repositories" /></a>
+
+<br />
+<br />
+
+<sub>Bengaluru, India · Usually learning, building, or fixing something.</sub>
 
 </div>
