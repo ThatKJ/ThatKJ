@@ -221,7 +221,7 @@ Added import and export across HADES, ChatGPT, Claude, and Markdown, including f
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="260" alt="Python, TypeScript, JavaScript, C++, and Rust" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="190" alt="Python, TypeScript, JavaScript, C++, and Rust" />
 </picture>
 
 <p><code>Python</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>C++</code> · <code>Rust</code></p>
@@ -231,7 +231,7 @@ Added import and export across HADES, ChatGPT, Claude, and Markdown, including f
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="315" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, and Redis" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="225" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, and Redis" />
 </picture>
 
 <p><code>React</code> · <code>Next.js</code> · <code>Tailwind</code> · <code>PostgreSQL</code> · <code>Supabase</code> · <code>Redis</code></p>
@@ -241,7 +241,7 @@ Added import and export across HADES, ChatGPT, Claude, and Markdown, including f
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="260" alt="Git, Docker, CMake, Linux, and Vercel" />
+  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="190" alt="Git, Docker, CMake, Linux, and Vercel" />
 </picture>
 
 <p><code>Git</code> · <code>Docker</code> · <code>CMake</code> · <code>Linux</code> · <code>Vercel</code></p>
