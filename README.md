@@ -23,7 +23,7 @@ Bengaluru, India · <a href="https://github.com/ThatKJ">@ThatKJ</a>
 <a href="#selected-work">Selected work</a>   /  
 <a href="#contributions">Contributions</a>   /  
 <a href="#toolkit">Toolkit</a>   /  
-<a href="#lets-build">Let's build</a>
+<a href="#lets-connect">Contact</a>
 
 </div>
 
@@ -104,129 +104,109 @@ Selected work
 </tr>
 </table>
 
-<details>
-<summary><strong>Smaller builds & experiments</strong></summary>
+More projects
 
-<br />
+Project
 
-ring-escape — a timing game built in Python.
+What it does
 
-FolderPrettifier — a small developer utility.
+ring-escape
 
-Airline Reservation System — an earlier software project.
+A Python/Pygame arcade game: rotate ring gaps, guide a ball outward, and progress through harder levels.
 
-Portfolio — my personal website project.
+FolderPrettifier
 
-</details>
+Organizes files into folders by type, with duplicate protection and optional timestamped names.
+
+Airline Reservation System
+
+A Python + MySQL booking system with seat selection, cancellations, user accounts, and admin tools.
+
+Portfolio
+
+My personal portfolio, built with React and Vite.
 
 <br />
 
 Contributions
 
-A few changes I've worked on in other people's codebases.
-
-Project
-
-Work
-
-Pull request
-
 HADES CLI
 
-Restored native terminal text selection and copying by removing unnecessary mouse capture.
+Two merged Rust contributions improving the terminal workflow:
 
-#32 · Merged
+Native text selection and copying. Removed unnecessary mouse capture so users can select and copy terminal output normally. Merged · #32 ↗
 
-HADES CLI
+Conversation import and export. Added portable session history across HADES, ChatGPT, Claude, and Markdown formats, with format detection and tests. Merged · #30 ↗
 
-Added session import/export, including support for HADES, ChatGPT, Claude, and Markdown conversation formats.
-
-#30 · Merged
-
-<details>
-<summary><strong>More contribution work</strong></summary>
-
-<br />
-
-Zed #63611 — proposed an editor fallback for non-image files with image extensions, with a regression test. Closed without merging.
-
-Next Bench #33 — rewrote project documentation covering the overview, setup, architecture, and contribution workflow.
-
-</details>
-
-<p><a href="https://github.com/pulls?q=is%3Apr%20author%3AThatKJ%20-user%3AThatKJ"><strong>Browse my pull requests ↗</strong></a></p>
+More work: Zed editor-fallback proposal · Next Bench documentation · All pull requests ↗
 
 <br />
 
 Toolkit
 
-Tools I've used across projects and contributions.
+Used across my projects and contributions.
 
-Area
+<div align="center">
 
-Technologies
+<p><strong>Languages</strong></p>
 
-Web & interfaces
-
-TypeScript · JavaScript · React · Next.js · Tailwind CSS
-
-AI & experimentation
-
-Python · OpenCV · ONNX
-
-Native code & developer tools
-
-C++ · Rust · CMake
-
-Data & infrastructure
-
-PostgreSQL · Supabase · Redis · Docker
-
-Workflow
-
-Git · GitHub · Linux · Vercel
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="250" alt="Python, TypeScript, JavaScript, C++, Rust" />
+</picture>
 
 <br />
 
-What I care about when building
+<p><strong>Web &amp; data</strong></p>
 
-The problem: who needs this, and what should it make easier?
-
-The experience: can someone understand and use it without me explaining every screen?
-
-The evidence: what works, what breaks, and how do I know?
-
-The follow-through: clear setup, useful documentation, and a project someone else can run.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="300" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, Redis" />
+</picture>
 
 <br />
 
-<details>
-<summary><strong>A little motion from my GitHub activity</strong></summary>
+<p><strong>Build &amp; workflow</strong></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" />
+  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="250" alt="Git, Docker, CMake, Linux, Vercel" />
+</picture>
 
 <br />
+<br />
+
+<p><sub>Computer vision &amp; inference: <strong>OpenCV · ONNX</strong></sub></p>
+
+</div>
+
+<br />
+
+How I build
+
+I care about what happens after the first successful run: finding the failure cases, improving the interface, and writing enough documentation for someone else to pick up the project.
+
+<br />
+
+GitHub activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Animated snake moving through my GitHub contribution grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Kirtan's GitHub contribution activity, animated as a snake" width="100%" />
 </picture>
-
-</details>
 
 <br />
 
 <div align="center">
 
-<h3 id="lets-build">Let's build.</h3>
+Let's connect
 
-<p>Working on an AI tool, a useful web product, or a developer experience worth improving?<br />
-I'd like to hear what you're building.</p>
+Tell me what you're building.
 
-<p><a href="mailto:kirtan120007@gmail.com"><strong>Email me ↗</strong></a> &nbsp; · &nbsp; <a href="https://linkedin.com/in/kirtan-joshi2412">LinkedIn</a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ?tab=repositories">Repositories</a></p>
-
-<br />
-
-<sub>Always learning. Usually building something.</sub>
+Email ↗   ·   LinkedIn   ·   X   ·   Repositories
 
 </div>
-
