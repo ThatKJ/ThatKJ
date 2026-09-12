@@ -1,366 +1,232 @@
 <div align="center">
 
-<img
-src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Kirtan%20Joshi&fontAlign=50&fontAlignY=38&desc=systems%20%E2%80%A2%20open%20source%20%E2%80%A2%20ai%20%E2%80%A2%20robotics&descAlign=50&descAlignY=60&animation=fadeIn&color=gradient"
-width="100%"
-alt="Kirtan Joshi"
-/>
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;height=190&amp;color=0:0D1117,55:29214D,100:0D1117&amp;text=KIRTAN%20JOSHI&amp;fontColor=F0F6FC&amp;fontSize=48&amp;fontAlignY=44&amp;desc=AI%20%2F%20SOFTWARE%20%2F%20PRODUCTS&amp;descSize=15&amp;descAlignY=69" width="100%" alt="Kirtan Joshi — AI, software, and products" />
 
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+systems+that+observe%2C+decide%2C+and+act.;Computer+Vision+%C3%97+Systems+%C3%97+Open+Source;Turning+real+bugs+into+upstream+pull+requests.;Learning+Rust+by+contributing.;GSoC+2027+is+the+target."
-    alt="Typing SVG"
-  />
-</a>
+<br />
+<br />
 
-<br/><br/>
+<strong>From a rough idea to something you can actually use.</strong>
 
-<a href="https://github.com/ThatKJ">
-  <img src="https://img.shields.io/badge/GitHub-ThatKJ-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://linkedin.com/in/kirtan-joshi2412">
-  <img src="https://img.shields.io/badge/LinkedIn-Kirtan_Joshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://twitter.com/kirtan026832614">
-  <img src="https://img.shields.io/badge/X-@kirtan026832614-000000?style=for-the-badge&logo=x&logoColor=white" />
-</a>
-<a href="mailto:kirtan120007@gmail.com">
-  <img src="https://img.shields.io/badge/Email-kirtan120007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<p>
+Computer Science @ Newton School of Technology<br />
+Bengaluru, India · <a href="https://github.com/ThatKJ">@ThatKJ</a>
+</p>
+
+<a href="https://awoken.in"><img src="https://img.shields.io/badge/AWOKEN-18181B?style=for-the-badge&amp;logoColor=white" alt="Visit Awoken" /></a>
+<a href="https://linkedin.com/in/kirtan-joshi2412"><img src="https://img.shields.io/badge/LINKEDIN-18181B?style=for-the-badge&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://twitter.com/kirtan026832614"><img src="https://img.shields.io/badge/X-18181B?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Find me on X" /></a>
+<a href="mailto:kirtan120007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-18181B?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Kirtan" /></a>
+
+<br />
+<br />
+
+<a href="#selected-work">Selected work</a>   /  
+<a href="#contributions">Contributions</a>   /  
+<a href="#toolkit">Toolkit</a>   /  
+<a href="#lets-build">Let's build</a>
 
 </div>
 
-<br/>
+<br />
 
-<pre>
-$ whoami
+A little context
 
-Kirtan Joshi
-Computer Science @ Newton School of Technology, Bangalore
+I'm Kirtan. I build web products, experiment with AI, and learn by getting involved in the details: the interface, the backend, the bug that only shows up when everything is connected.
 
-I build systems that observe, decide, act —
-and make it obvious when they fail.
+My projects have taken me from business software to agent payments and camera-tracking simulations. I like work where I can connect the technical decisions to what someone actually needs.
 
-Currently:
-  → building computer-vision + control systems
-  → contributing to real open-source codebases
-  → going deeper into Rust, C++ and Python
-  → working toward GSoC 2027
-</pre>
+Right now: building Awoken, strengthening my Python and software fundamentals, and making my projects more useful and easier to understand.
 
-01 / Open Source
+<br />
 
-I’m learning large codebases the way I think they should be learned:
-
-reproduce the bug → trace the system → understand the failure → make the smallest correct change → test it → explain it upstream
-
-<table>
-<tr>
-<td width="100%">
-
-⚡ Zed
-
-zed-industries/zed#63611
-
-Fixed fallback behavior for files that have an image extension but aren't actually valid images, allowing the workspace to correctly fall back to the editor.
-
-Rust async APIs workspace image viewer regression tests
-
-</td>
-</tr>
-
-<tr>
-<td width="100%">
-
-🔥 HADES CLI
-
-PareekshithPalat/HADES_CLI#32
-
-Restored native terminal text selection and copying by removing unnecessary global mouse capture from the TUI.
-
-Rust Ratatui Crossterm terminal behavior
-
-</td>
-</tr>
-
-<tr>
-<td width="100%">
-
-🔥 HADES CLI
-
-PareekshithPalat/HADES_CLI#30
-
-Worked on cross-platform conversation import/export across HADES, ChatGPT, Claude and generic Markdown formats.
-
-Rust storage serialization CLI
-
-</td>
-</tr>
-</table>
-
-I don't want contribution squares.
-
-<pre>
-I want to become useful inside
-codebases I didn't create.
-</pre>
-
-<div align="center">
-
-→ Google Summer of Code 2027
-
-</div>
-
-02 / Building
+Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-📡 FSOC
+<h3><a href="https://awoken.in">Awoken ↗</a></h3>
+<p><sub>AI · BUSINESS SOFTWARE · PRODUCT</sub></p>
 
-Vision-based tracking and control for mobile free-space optical terminals.
+<p>My venture exploring how AI, automation, and better software can help businesses operate.</p>
 
-A closed-loop system built around:
+<p>The public site brings together services, industry-specific solutions, and a booking flow. It is where I work on both the engineering and the business behind a product.</p>
 
-camera → detection → tracking error → controller → actuation
+<p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code></p>
 
-Built with deterministic simulation, synthetic camera rendering, beacon detection, PID control, telemetry, benchmarking and acceptance validation.
-
-C++20 · OpenCV · CMake · Computer Vision · Control Systems
+<p><a href="https://awoken.in"><strong>Website ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/awoken.in">Source</a></p>
 
 </td>
-
 <td width="50%" valign="top">
 
-💸 Margin402
+<h3><a href="https://github.com/ThatKJ/margin402">Margin402 ↗</a></h3>
+<p><sub>AI AGENTS · PAYMENTS · VERIFICATION</sub></p>
 
-Outcome-underwriting infrastructure for autonomous agents.
+<p>A prototype for buying a verified AI-service result at a fixed price.</p>
 
-Instead of paying for every failed AI-service attempt, an agent buys a verified outcome at a fixed price.
+<p>It coordinates provider attempts, checks outputs, retries, and tracks execution costs. The demo combines Algorand Testnet payments with a simulated provider market.</p>
 
-Margin402 chooses providers, makes x402 payments, verifies results, retries when necessary and manages execution economics.
+<p><code>TypeScript</code> <code>Next.js</code> <code>x402</code> <code>Redis</code></p>
 
-TypeScript · Next.js · Algorand · x402 · Redis
-
-<br/>
-
-Live Demo ↗
+<p><a href="https://margin402.vercel.app"><strong>Demo ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/margin402">Source</a></p>
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-🎓 Next Bench
+<h3><a href="https://github.com/ThatKJ/FSOC">FSOC ↗</a></h3>
+<p><sub>COMPUTER VISION · C++ · SIMULATION</sub></p>
 
-A student-first university discovery platform.
+<p>A camera-tracking workbench for studying how moving optical terminals stay aligned.</p>
 
-Search institutions, explore structured education profiles, manage personal goals and keep target universities in one workspace.
+<p>Built with Team IRODOV: a C++ simulation engine, classical and learned beacon detection, temporal tracking, PID control, and a Mission Control interface for inspecting runs.</p>
 
-Next.js · React · TypeScript · Supabase · PostgreSQL
+<p><code>C++20</code> <code>OpenCV</code> <code>ONNX</code> <code>Next.js</code></p>
 
-<br/>
-
-Live Demo ↗
+<p><a href="https://github.com/ThatKJ/FSOC"><strong>Source ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/FSOC/blob/main/docs/MVP_METRICS.md">Simulation results</a></p>
 
 </td>
-
 <td width="50%" valign="top">
 
-⚡ GEC Platform
+<h3><a href="https://github.com/ThatKJ/gec-platform">GEC Platform ↗</a></h3>
+<p><sub>INTERACTIVE WEB · 3D · DATA VISUALIZATION</sub></p>
 
-Energy intelligence and forecasting platform.
+<p>An interactive web experience that makes an electricity-monitoring system easier to explore.</p>
 
-Built around monitoring electricity consumption, forecasting usage and surfacing where energy is being wasted.
+<p>It combines a 3D system view, component explorer, waveform displays, and circuit diagrams to explain how the system fits together.</p>
 
-TypeScript · Data · Forecasting · Web
+<p><code>Next.js</code> <code>TypeScript</code> <code>Three.js</code></p>
+
+<p><a href="https://github.com/ThatKJ/gec-platform"><strong>Source ↗</strong></a></p>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>More things I've built ↓</b></summary>
+<summary><strong>Smaller builds & experiments</strong></summary>
 
-<br/>
+<br />
 
-🎮 ring-escape — timing game built in Python
+ring-escape — a timing game built in Python.
 
-🧠 awoken.in — AI + business intelligence platform
+FolderPrettifier — a small developer utility.
 
-🛠️ FolderPrettifier — lightweight developer utility
+Airline Reservation System — an earlier software project.
 
-✈️ Airline Reservation System
-
-🌐 Portfolio
+Portfolio — my personal website project.
 
 </details>
 
-03 / Current Focus
+<br />
 
-<pre>
-struct CurrentFocus {
-    systems: ["Rust", "C++"],
+Contributions
 
-    intelligence: [
-        "Python",
-        "Computer Vision",
-        "AI",
-    ],
+A few changes I've worked on in other people's codebases.
 
-    engineering: [
-        "reading large codebases",
-        "debugging from first principles",
-        "testing",
-        "open-source contribution",
-    ],
-}
-</pre>
+Project
 
-I keep coming back to this loop:
+Work
 
-<pre>
-        ┌───────────────┐
-        │  PERCEPTION   │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │   DECISION    │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     ACTION    │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │  OBSERVATION  │
-        └───────┬───────┘
-                │
-                └──────────────→ repeat
-</pre>
+Pull request
 
-<p align="center">
-  <strong>observe → reason → act → verify</strong>
-</p>
+HADES CLI
 
-04 / Stack
+Restored native terminal text selection and copying by removing unnecessary mouse capture.
 
-<div align="center">
+#32 · Merged
 
-Languages
+HADES CLI
 
-<img src="https://skillicons.dev/icons?i=cpp,rust,python,ts,js,java&perline=6" />
+Added session import/export, including support for HADES, ChatGPT, Claude, and Markdown conversation formats.
 
-<br/><br/>
+#30 · Merged
 
-Web / Backend / Data
+<details>
+<summary><strong>More contribution work</strong></summary>
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,postgres,supabase,docker&perline=6" />
+<br />
 
-<br/><br/>
+Zed #63611 — proposed an editor fallback for non-image files with image extensions, with a regression test. Closed without merging.
 
-Tools
+Next Bench #33 — rewrote project documentation covering the overview, setup, architecture, and contribution workflow.
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel&perline=6" />
+</details>
 
-</div>
+<p><a href="https://github.com/pulls?q=is%3Apr%20author%3AThatKJ%20-user%3AThatKJ"><strong>Browse my pull requests ↗</strong></a></p>
 
-<br/>
+<br />
 
-<pre>
-Systems     → Rust + C++
-AI          → Python + Computer Vision
-Web         → TypeScript + Next.js
-Open Source → debugging real issues in large codebases
-</pre>
+Toolkit
 
-05 / GitHub
+Tools I've used across projects and contributions.
 
-<div align="center">
+Area
 
-<img
-src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ThatKJ&theme=github_dark"
-width="95%"
-alt="Kirtan Joshi GitHub profile summary"
-/>
+Technologies
 
-<br/><br/>
+Web & interfaces
 
-<img
-src="https://ghchart.rshah.org/58A6FF/ThatKJ"
-width="95%"
-alt="Kirtan Joshi GitHub contribution graph"
-/>
+TypeScript · JavaScript · React · Next.js · Tailwind CSS
 
-</div>
+AI & experimentation
 
-<div align="center">
+Python · OpenCV · ONNX
+
+Native code & developer tools
+
+C++ · Rust · CMake
+
+Data & infrastructure
+
+PostgreSQL · Supabase · Redis · Docker
+
+Workflow
+
+Git · GitHub · Linux · Vercel
+
+<br />
+
+What I care about when building
+
+The problem: who needs this, and what should it make easier?
+
+The experience: can someone understand and use it without me explaining every screen?
+
+The evidence: what works, what breaks, and how do I know?
+
+The follow-through: clear setup, useful documentation, and a project someone else can run.
+
+<br />
+
+<details>
+<summary><strong>A little motion from my GitHub activity</strong></summary>
+
+<br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Animated snake moving through my GitHub contribution grid" width="100%" />
 </picture>
 
-</div>
+</details>
 
-06 / How I Build
-
-<pre>
-understand the problem
-        │
-        ▼
-understand the system
-        │
-        ▼
-build the smallest correct version
-        │
-        ▼
-measure what actually happened
-        │
-        ▼
-find what breaks
-        │
-        ▼
-make the system better
-        │
-        └──────────────→ repeat
-</pre>
-
-I'm not trying to collect 50 technologies.
-
-I'm trying to get unusually good at understanding systems I didn't write, finding where reality disagrees with the assumptions, and fixing the right layer.
-
-Today that happens through:
-
-<p align="center">
-  <code>computer vision</code> ·
-  <code>control systems</code> ·
-  <code>AI agents</code> ·
-  <code>developer tools</code> ·
-  <code>open source</code>
-</p>
-
-<br/>
+<br />
 
 <div align="center">
 
-Build things. Break assumptions. Read the source.
+<h3 id="lets-build">Let's build.</h3>
 
-Computer Science · Bangalore · Systems · Open Source
+<p>Working on an AI tool, a useful web product, or a developer experience worth improving?<br />
+I'd like to hear what you're building.</p>
 
-<br/>
+<p><a href="mailto:kirtan120007@gmail.com"><strong>Email me ↗</strong></a> &nbsp; · &nbsp; <a href="https://linkedin.com/in/kirtan-joshi2412">LinkedIn</a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ?tab=repositories">Repositories</a></p>
 
-<a href="https://github.com/ThatKJ?tab=repositories"><b>Repositories</b></a>
-  •  
-<a href="https://github.com/pulls?q=is%3Apr+author%3AThatKJ"><b>Pull Requests</b></a>
-  •  
-<a href="mailto:kirtan120007@gmail.com"><b>Contact</b></a>
+<br />
 
-<br/><br/>
-
-<code>working toward GSoC 2027</code>
+<sub>Always learning. Usually building something.</sub>
 
 </div>
+
