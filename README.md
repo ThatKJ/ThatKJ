@@ -218,11 +218,22 @@ Added import and export across HADES, ChatGPT, Claude, and Markdown, including f
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=dark&amp;perline=16" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=light&amp;perline=16" />
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=light&amp;perline=16" width="720" alt="Python, TypeScript, JavaScript, C++, Rust, React, Next.js, Tailwind CSS, PostgreSQL, Supabase, Redis, Git, Docker, CMake, Linux, and Vercel" />
-</picture>
+<img src="https://skillicons.dev/icons?i=python&amp;theme=dark" width="36" height="36" alt="Python" title="Python" />
+<img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" />
+<img src="https://skillicons.dev/icons?i=js&amp;theme=dark" width="36" height="36" alt="JavaScript" title="JavaScript" />
+<img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" width="36" height="36" alt="C++" title="C++" />
+<img src="https://skillicons.dev/icons?i=rust&amp;theme=dark" width="36" height="36" alt="Rust" title="Rust" />
+<img src="https://skillicons.dev/icons?i=react&amp;theme=dark" width="36" height="36" alt="React" title="React" />
+<img src="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" width="36" height="36" alt="Next.js" title="Next.js" />
+<img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" width="36" height="36" alt="Tailwind CSS" title="Tailwind CSS" />
+<img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="36" height="36" alt="PostgreSQL" title="PostgreSQL" />
+<img src="https://skillicons.dev/icons?i=supabase&amp;theme=dark" width="36" height="36" alt="Supabase" title="Supabase" />
+<img src="https://skillicons.dev/icons?i=redis&amp;theme=dark" width="36" height="36" alt="Redis" title="Redis" />
+<img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="36" height="36" alt="Git" title="Git" />
+<img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="36" height="36" alt="Docker" title="Docker" />
+<img src="https://skillicons.dev/icons?i=cmake&amp;theme=dark" width="36" height="36" alt="CMake" title="CMake" />
+<img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="36" height="36" alt="Linux" title="Linux" />
+<img src="https://skillicons.dev/icons?i=vercel&amp;theme=dark" width="36" height="36" alt="Vercel" title="Vercel" />
 
 <br />
 
