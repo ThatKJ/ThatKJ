@@ -219,32 +219,10 @@ Added import and export across HADES, ChatGPT, Claude, and Markdown, including f
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust&amp;theme=light" width="190" alt="Python, TypeScript, JavaScript, C++, and Rust" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=dark&amp;perline=16" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=light&amp;perline=16" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,rust,react,nextjs,tailwind,postgres,supabase,redis,git,docker,cmake,linux,vercel&amp;theme=light&amp;perline=16" width="720" alt="Python, TypeScript, JavaScript, C++, Rust, React, Next.js, Tailwind CSS, PostgreSQL, Supabase, Redis, Git, Docker, CMake, Linux, and Vercel" />
 </picture>
-
-<p><code>Python</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>C++</code> · <code>Rust</code></p>
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,supabase,redis&amp;theme=light" width="225" alt="React, Next.js, Tailwind CSS, PostgreSQL, Supabase, and Redis" />
-</picture>
-
-<p><code>React</code> · <code>Next.js</code> · <code>Tailwind</code> · <code>PostgreSQL</code> · <code>Supabase</code> · <code>Redis</code></p>
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" />
-  <img src="https://skillicons.dev/icons?i=git,docker,cmake,linux,vercel&amp;theme=light" width="190" alt="Git, Docker, CMake, Linux, and Vercel" />
-</picture>
-
-<p><code>Git</code> · <code>Docker</code> · <code>CMake</code> · <code>Linux</code> · <code>Vercel</code></p>
 
 <br />
 
