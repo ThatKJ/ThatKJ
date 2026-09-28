@@ -1,107 +1,98 @@
+<img src="assets/hero.svg" width="100%" alt="Kirtan Joshi (@ThatKJ), Bangalore. I build software that has to work outside the demo. Now building Awoken, AI follow-up for real-estate sales teams.">
+
+<p>
+<a href="https://awoken.in"><b>awoken.in</b></a>&emsp;
+<a href="https://linkedin.com/in/kirtan-joshi2412"><b>LinkedIn</b></a>&emsp;
+<a href="mailto:kirtan120007@gmail.com"><b>Email</b></a>&emsp;
+<a href="https://x.com/kirtan026832614"><b>X</b></a>&emsp;
+<a href="https://github.com/search?q=author%3AThatKJ+is%3Apr+-user%3AThatKJ&type=pullrequests"><b>Pull requests</b></a>
+</p>
+
+CS student at Newton School of Technology. I take ideas from a rough sketch to something people can run, then check whether it actually works. Recent work has taken me from a C++ camera-control loop to AI agents that pay for outcomes over x402 to Rust terminal internals.
+
+<br>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" width="100%" alt="Kirtan Joshi (@ThatKJ). AI, software, products, systems. A loop: observe, decide, act, verify.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-work-light.svg">
+  <img src="assets/h-work-dark.svg" width="100%" alt="Selected work">
 </picture>
 
-### I build software that has to work outside the demo.
+<p>
+<a href="https://awoken.in"><img src="assets/card-awoken.svg" width="49%" alt="Awoken, early-stage venture. AI follow-up that brings unanswered real-estate leads back over WhatsApp, then hands warm buyers to sales. Next.js, TypeScript, Supabase."></a>
+<a href="https://margin402.vercel.app"><img src="assets/card-margin402.svg" width="49%" alt="Margin402, hackathon prototype. An agent pays one fixed price for a verified result instead of paying for every failed attempt. Testnet run: contract $1.20, spent $1.28, $0.08 absorbed, verified 8 of 8 tests."></a>
+<a href="https://github.com/ThatKJ/FSOC"><img src="assets/card-fsoc.svg" width="49%" alt="FSOC, simulation for Smart India Hackathon 2026. Camera-only pointing for a moving optical terminal in C++20. Simulated RMS pointing error falls from 6.45 degrees open loop to 0.55 degrees closed loop."></a>
+<a href="https://gec-platform.vercel.app"><img src="assets/card-gec.svg" width="49%" alt="GEC Platform, interactive explainer. An ESP32 energy-monitoring rig explained through interactive 3D scenes, waveforms and a schematic."></a>
+</p>
 
-CS student at Newton School of Technology, Bangalore. I take ideas from a rough sketch to something people can run, then check whether it actually works. Recent work has taken me from a C++ camera-control loop to AI agents that pay for outcomes over x402 to Rust terminal internals.
+<sub>Source: <a href="https://github.com/ThatKJ/margin402">margin402</a>, <a href="https://github.com/ThatKJ/FSOC">FSOC</a>, <a href="https://github.com/ThatKJ/gec-platform">gec-platform</a>. FSOC was built with Team IRODOV for ISRO's SIH26169 problem statement; its numbers are recorded simulation results, and <a href="https://github.com/ThatKJ/FSOC#measured-results">the repo documents the tradeoffs</a>. Margin402's provider market is simulated; its payments are real Algorand Testnet transactions.</sub>
 
-[awoken.in](https://awoken.in) · [LinkedIn](https://linkedin.com/in/kirtan-joshi2412) · [Email](mailto:kirtan120007@gmail.com) · [Pull requests](https://github.com/search?q=author%3AThatKJ+is%3Apr+-user%3AThatKJ&type=pullrequests)
+<br><br>
 
-```text
-building      Awoken · AI lead follow-up
-exploring     agents that pay, verify, retry
-contributing  focused upstream fixes
-aiming        GSoC 2027
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-oss-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-oss-light.svg">
+  <img src="assets/h-oss-dark.svg" width="100%" alt="Open source: 3 merged, 2 open">
+</picture>
 
-## Selected work
+<a href="https://github.com/search?q=author%3AThatKJ+is%3Apr+-user%3AThatKJ&type=pullrequests"><img src="assets/oss.svg" width="100%" alt="Merged: HADES CLI #32 (Rust), restored native text selection by removing global mouse capture. HADES CLI #30 (Rust), conversation import and export. awesome-ai-apps #317 (Python), closed a credentialed wildcard CORS hole. Open: Node.js #66376 (C++), backport of two V8 fixes for a WebAssembly wrapper lifetime race. LLMVault #44 (Python), brute-force guard for flag submissions."></a>
 
-### Awoken &nbsp;<sub>early-stage venture</sub>
+<details>
+<summary><b>What changed in each pull request</b></summary>
+<br>
 
-**AI follow-up for real-estate sales teams.** Teams pay for leads, then lose them to one unanswered call and a flood of newer ones. Awoken starts with the leads a team has already written off (a CSV export is enough), re-engages them over WhatsApp, qualifies project, budget, location and timeline, and hands interested buyers back to sales with the conversation attached. It sits alongside the CRM instead of replacing it.
+**[HADES CLI #32](https://github.com/PareekshithPalat/HADES_CLI/pull/32)** (merged). The TUI enabled global mouse capture at startup even though every interaction is keyboard-driven, so terminals sent drags to the app instead of selecting text. Removed the capture on init and kept the cleanup on exit. Ratatui, Crossterm.
 
-<sub>Next.js · TypeScript · Tailwind · Supabase</sub><br>
-[awoken.in ↗](https://awoken.in)
+**[HADES CLI #30](https://github.com/PareekshithPalat/HADES_CLI/pull/30)** (merged). Added `/export` and `/import`. Exports Markdown or JSON; imports HADES exports, ChatGPT `conversations.json`, Claude transcripts and generic Markdown with format detection, then restores them into the active context. Spans the storage, core and TUI crates.
 
-### Margin402 &nbsp;<sub>hackathon prototype · Algorand Testnet</sub>
+**[awesome-ai-apps #317](https://github.com/Arindam200/awesome-ai-apps/pull/317)** (merged). A FastAPI service paired a wildcard CORS origin with `allow_credentials=True`. Origins now come from an explicit allow-list that fails closed when unset, with regression tests for the edge cases raised in review.
 
-**An AI agent buys a verified outcome at a fixed price, not every failed attempt.** Margin402 picks a provider, pays it over x402, checks the result against hidden tests, and retries or escalates until it passes. If the run costs more than the contract, Margin402 absorbs the loss: one documented run charged $1.20, spent $1.28 across four provider payments, and returned code passing 8/8 tests.
+**[Node.js #66376](https://github.com/nodejs/node/pull/66376)** (open). Backports two V8 fixes to `v24.x-staging`: a wrapper already marked as dying could be re-added to a `WasmCodeRefScope`, tripping a JIT allocation `CHECK`. An independent tester reported 0 crashes in 191 repro runs with the patch, versus 8 in 149 without.
 
-Every payment is a real x402 round-trip (402 → sign → verify → settle) on Algorand Testnet, with job state in Redis. The provider market is simulated, and the repo says so.
+**[LLMVault #44](https://github.com/CyberSunil/LLMVault/pull/44)** (open). Per-player, per-challenge attempt tracking, a 30-second cooldown after five misses, and HTTP 429 with `retry_after`. 19 tests.
 
-<sub>TypeScript · Next.js · x402 · Algorand · Redis</sub><br>
-[live demo ↗](https://margin402.vercel.app) · [source](https://github.com/ThatKJ/margin402)
+</details>
 
-### FSOC &nbsp;<sub>simulation · Smart India Hackathon 2026</sub>
+<br>
 
-**Keeping a moving optical terminal pointed at its receiver using only a camera.** Built with Team IRODOV for ISRO's SIH26169 problem statement. A C++20 closed loop renders a moving beacon, detects it (classical, a 27k-parameter ONNX network through OpenCV DNN, or a hybrid), gates detections with an alpha–beta tracker, and steers a rate-limited virtual pan/tilt camera with PID. A Next.js Mission Control makes every run inspectable.
-
-In simulation, closing the loop cut RMS pointing error from 6.45° to 0.55°. The tracker removed about 99.5% of severe outliers but cost 20 points of detection coverage. The repo documents that tradeoff instead of hiding it. Real-camera input is in progress.
-
-<sub>C++20 · OpenCV · ONNX · CMake · Next.js</sub><br>
-[source](https://github.com/ThatKJ/FSOC) · [results](https://github.com/ThatKJ/FSOC#measured-results) · [Mission Control ↗](https://fsoc-iota.vercel.app)
-
-### GEC Platform &nbsp;<sub>interactive explainer</sub>
-
-**An ESP32 electricity-monitoring rig, explained in 3D.** Four pages walk through the hardware, signal path, waveforms and circuit schematic of an ACS712 / ZMPT101B voltage-and-current sensing system.
-
-<sub>Next.js · TypeScript · Three.js</sub><br>
-[live ↗](https://gec-platform.vercel.app) · [source](https://github.com/ThatKJ/gec-platform)
-
-## Open source
-
-I learn by working inside codebases I didn't design: reproduce the problem, find the layer it actually lives in, make the smallest change that fixes it, and prove it with tests.
-
-<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[HADES CLI #32](https://github.com/PareekshithPalat/HADES_CLI/pull/32)** · Rust<br>
-Restored native text selection and copy in the terminal UI. Root cause: the TUI enabled global mouse capture at startup even though every interaction is keyboard-driven, so terminals sent drags to the app instead of selecting text. Removed the capture on init, kept the cleanup on exit.<br>
-<sub>Ratatui · Crossterm</sub>
-
-<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[HADES CLI #30](https://github.com/PareekshithPalat/HADES_CLI/pull/30)** · Rust<br>
-Added `/export` and `/import` for conversation history. Exports Markdown or JSON; imports HADES exports, ChatGPT `conversations.json`, Claude transcripts and generic Markdown, with format detection, and restores them into the active context. Spans the storage, core and TUI crates.<br>
-<sub>serde · CLI commands · multi-crate workspace</sub>
-
-<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[awesome-ai-apps #317](https://github.com/Arindam200/awesome-ai-apps/pull/317)** · Python<br>
-Fixed a FastAPI service that paired a wildcard CORS origin with `allow_credentials=True`. Origins now come from an explicit allow-list that fails closed when unset, with regression tests for the edge cases raised in review.<br>
-<sub>FastAPI · CORS · pytest</sub>
-
-<img src="assets/status-open.svg" alt="Open" height="20"> &nbsp;**[Node.js #66376](https://github.com/nodejs/node/pull/66376)** · C++<br>
-Backports two V8 fixes for a wasm import-wrapper lifetime race to `v24.x-staging`. A wrapper already marked as dying could be re-added to a `WasmCodeRefScope`, tripping a JIT allocation `CHECK`. An independent tester reported 0 crashes in 191 repro runs with the patch, versus 8 in 149 without.<br>
-<sub>V8 · WebAssembly · memory lifetimes</sub>
-
-<img src="assets/status-open.svg" alt="Open" height="20"> &nbsp;**[LLMVault #44](https://github.com/CyberSunil/LLMVault/pull/44)** · Python<br>
-Brute-force protection for flag submissions: per-player, per-challenge attempt tracking, a 30-second cooldown after five misses, and HTTP 429 with `retry_after`. 19 tests.
-
-## More things I've built
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-more-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-more-light.svg">
+  <img src="assets/h-more-dark.svg" width="100%" alt="Other builds">
+</picture>
 
 | Project | What it is | Stack |
 |---|---|---|
-| [ChallanCheck](https://github.com/ThatKJ/challancheck) | Checks whether a traffic e-challan's photo actually shows the cited violation. A vision API observes; deterministic rules decide. | JavaScript · AWS Lambda · Rekognition |
-| [Beacontra](https://github.com/ThatKJ/Beacontra) | Ranks marketplace listings for brand review by combining price, seller and reverse-image evidence. | TypeScript · SerpApi |
-| [Intervu](https://github.com/ThatKJ/team-vector) | Adaptive interview engine: each answer updates a model of what the candidate knows and picks the next question. 48-hour team build. | Next.js · TypeScript · Supabase |
-| [ring-escape](https://github.com/ThatKJ/ring-escape) | Arcade game: rotate concentric rings to guide a ball out of the maze. | Python · Pygame |
-| [Portfolio](https://portfolio-kirtan.vercel.app) | Personal site. | React · Vite · Framer Motion |
+| [ChallanCheck](https://github.com/ThatKJ/challancheck) | Checks whether a traffic e-challan's photo actually shows the cited violation. A vision API observes; deterministic rules decide. | JavaScript, AWS Lambda, Rekognition |
+| [Beacontra](https://github.com/ThatKJ/Beacontra) | Ranks marketplace listings for brand review by combining price, seller and reverse-image evidence. | TypeScript, SerpApi |
+| [Intervu](https://github.com/ThatKJ/team-vector) | Adaptive interview engine: each answer updates a model of what the candidate knows and picks the next question. 48-hour team build. | Next.js, TypeScript, Supabase |
+| [ring-escape](https://github.com/ThatKJ/ring-escape) | Arcade game: rotate concentric rings to guide a ball out of the maze. | Python, Pygame |
+| [Portfolio](https://portfolio-kirtan.vercel.app) | Personal site. | React, Vite, Framer Motion |
 | [FolderPrettifier](https://github.com/ThatKJ/FolderPrettifier) | Sorts a messy folder by file type without overwriting duplicates. | Python |
-| [Airline Reservation System](https://github.com/ThatKJ/Airline-Reservation-System) | Terminal booking system with user and admin roles. School group project. | Python · MySQL |
+| [Airline Reservation System](https://github.com/ThatKJ/Airline-Reservation-System) | Terminal booking system with user and admin roles. School group project. | Python, MySQL |
 
-## Toolbox
+<br>
 
-`LANGUAGES` &nbsp;TypeScript · Python · C++ · JavaScript · Rust<br>
-`PRODUCT` &nbsp;Next.js · React · Tailwind · Three.js · Framer Motion<br>
-`VISION` &nbsp;OpenCV DNN · ONNX · CMake<br>
-`DATA / INFRA` &nbsp;Supabase · PostgreSQL · Redis · MySQL · AWS Lambda<br>
-`AGENTS / PAYMENTS` &nbsp;x402 · Algorand
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-tools-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-tools-light.svg">
+  <img src="assets/h-tools-dark.svg" width="100%" alt="Toolbox">
+</picture>
 
-## How I work
+<img src="assets/toolbox.svg" width="100%" alt="Languages: TypeScript, Python, C++, JavaScript, Rust. Product: Next.js, React, Tailwind, Three.js, Framer Motion. Vision: OpenCV DNN, ONNX, CMake. Data and infra: Supabase, PostgreSQL, Redis, MySQL, AWS Lambda. Agents and payments: x402, Algorand.">
 
-**Understand the problem → build the smallest useful version → test it against reality → fix the right layer.**
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-how-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-how-light.svg">
+  <img src="assets/h-how-dark.svg" width="100%" alt="How I work">
+</picture>
+
+<img src="assets/how.svg" width="100%" alt="Understand the problem, build the smallest useful version, test it against reality, fix the right layer, and repeat.">
 
 That's why FSOC publishes its counterexamples next to its best numbers, Margin402 has a "what is real vs. simulated" table, and my pull requests start with the root cause.
 
----
+<br>
 
-**Working on something where the interface, the backend and the failure cases all matter?** I'd like to hear about it.
-
-[Email](mailto:kirtan120007@gmail.com) · [LinkedIn](https://linkedin.com/in/kirtan-joshi2412) · [X](https://x.com/kirtan026832614) · [awoken.in](https://awoken.in)
+<a href="mailto:kirtan120007@gmail.com"><img src="assets/footer.svg" width="100%" alt="Building something that has to work outside the demo? I'd like to hear about it. kirtan120007@gmail.com"></a>
