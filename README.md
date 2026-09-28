@@ -1,268 +1,107 @@
-<!-- GitHub profile README for ThatKJ. Uses GitHub-supported Markdown and HTML. -->
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;height=190&amp;color=0:0D1117,55:29214D,100:0D1117&amp;text=KIRTAN%20JOSHI&amp;fontColor=F0F6FC&amp;fontSize=48&amp;fontAlignY=44&amp;desc=AI%20%2F%20SOFTWARE%20%2F%20PRODUCTS&amp;descSize=15&amp;descAlignY=69" width="100%" alt="Kirtan Joshi — AI, software, and products" />
-
-<br />
-<br />
-
-<strong>From a rough idea to something you can actually use.</strong>
-<p>
-Computer Science @ Newton School of Technology<br />
-Bengaluru, India · <a href="https://github.com/ThatKJ">@ThatKJ</a>
-</p>
-
-<a href="https://awoken.in"><img src="https://img.shields.io/badge/AWOKEN-18181B?style=for-the-badge&amp;logoColor=white" alt="Visit Awoken" /></a>
-<a href="https://linkedin.com/in/kirtan-joshi2412"><img src="https://img.shields.io/badge/LINKEDIN-18181B?style=for-the-badge&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="https://twitter.com/kirtan026832614"><img src="https://img.shields.io/badge/X-18181B?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Find me on X" /></a>
-<a href="mailto:kirtan120007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-18181B?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Kirtan" /></a>
-<br />
-<br />
-
-<a href="#selected-work">Selected work</a>   /  
-<a href="#contributions">Contributions</a>   /  
-<a href="#toolkit">Toolkit</a>   /  
-<a href="#lets-connect">Contact</a>
-</div>
-
-
-A little context
-I'm Kirtan. I build web products, experiment with AI, and learn by getting involved in the details: the interface, the backend, the bug that only shows up when everything is connected.
-My projects have taken me from business software to agent payments and camera-tracking simulations. I like work where I can connect the technical decisions to what someone actually needs.
-Right now: building Awoken, strengthening my Python and software fundamentals, and making my projects more useful and easier to understand.
-
-Selected work
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3><a href="https://awoken.in">Awoken ↗</a></h3>
-<p><sub>AI · BUSINESS SOFTWARE · PRODUCT</sub></p>
-
-<p>My venture exploring how AI, automation, and better software can help businesses operate.</p>
-
-<p>The public site brings together services, industry-specific solutions, and a booking flow. It is where I work on both the engineering and the business behind a product.</p>
-
-<p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code></p>
-
-<p><a href="https://awoken.in"><strong>Website ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/awoken.in">Source</a></p>
-
-</td>
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/ThatKJ/margin402">Margin402 ↗</a></h3>
-<p><sub>AI AGENTS · PAYMENTS · VERIFICATION</sub></p>
-
-<p>A prototype for buying a verified AI-service result at a fixed price.</p>
-
-<p>It coordinates provider attempts, checks outputs, retries, and tracks execution costs. The demo combines Algorand Testnet payments with a simulated provider market.</p>
-
-<p><code>TypeScript</code> <code>Next.js</code> <code>x402</code> <code>Redis</code></p>
-
-<p><a href="https://margin402.vercel.app"><strong>Demo ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/margin402">Source</a></p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/ThatKJ/FSOC">FSOC ↗</a></h3>
-<p><sub>COMPUTER VISION · C++ · SIMULATION</sub></p>
-
-<p>A camera-tracking workbench for studying how moving optical terminals stay aligned.</p>
-
-<p>Built with Team IRODOV: a C++ simulation engine, classical and learned beacon detection, temporal tracking, PID control, and a Mission Control interface for inspecting runs.</p>
-
-<p><code>C++20</code> <code>OpenCV</code> <code>ONNX</code> <code>Next.js</code></p>
-
-<p><a href="https://github.com/ThatKJ/FSOC"><strong>Source ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/ThatKJ/FSOC/blob/main/docs/MVP_METRICS.md">Simulation results</a></p>
-
-</td>
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/ThatKJ/gec-platform">GEC Platform ↗</a></h3>
-<p><sub>INTERACTIVE WEB · 3D · DATA VISUALIZATION</sub></p>
-
-<p>An interactive web experience that makes an electricity-monitoring system easier to explore.</p>
-
-<p>It combines a 3D system view, component explorer, waveform displays, and circuit diagrams to explain how the system fits together.</p>
-
-<p><code>Next.js</code> <code>TypeScript</code> <code>Three.js</code></p>
-
-<p><a href="https://github.com/ThatKJ/gec-platform"><strong>Source ↗</strong></a></p>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=MORE%20PROJECTS&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="More Projects" />
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🎮 <a href="https://github.com/ThatKJ/ring-escape">ring-escape</a></h3>
-
-A fast Python arcade game built around timing and control. Rotate the rings, line up the gaps, and guide the ball outward as every level gets harder.
-<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Pygame-18181B?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Pygame" /></p>
-
-<a href="https://github.com/ThatKJ/ring-escape"><strong>View repository →</strong></a>
-</td>
-<td width="50%" valign="top">
-
-<h3>✨ <a href="https://github.com/ThatKJ/FolderPrettifier">FolderPrettifier</a></h3>
-
-A lightweight organizer for messy folders. It sorts files by type, handles duplicate names safely, and can add timestamps automatically.
-<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Cross--platform-18181B?style=flat-square" alt="Cross-platform" /></p>
-
-<a href="https://github.com/ThatKJ/FolderPrettifier"><strong>View repository →</strong></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>✈️ <a href="https://github.com/ThatKJ/Airline-Reservation-System">Airline Reservation System</a></h3>
-
-A terminal booking system with user accounts, flight search, seat selection, cancellations, booking history, reports, and admin controls.
-<p><img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/MySQL-18181B?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1" alt="MySQL" /></p>
-
-<a href="https://github.com/ThatKJ/Airline-Reservation-System"><strong>View repository →</strong></a>
-</td>
-<td width="50%" valign="top">
-
-<h3>🌐 <a href="https://github.com/ThatKJ/Portfolio">Portfolio</a></h3>
-
-My personal corner of the web for presenting the projects I build, the tools I use, and the ideas I am exploring.
-<p><img src="https://img.shields.io/badge/React-18181B?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/Vite-18181B?style=flat-square&amp;logo=vite&amp;logoColor=646CFF" alt="Vite" /></p>
-
-<a href="https://github.com/ThatKJ/Portfolio"><strong>View repository →</strong></a>
-</td>
-</tr>
-</table>
-
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=OPEN%20SOURCE&amp;fontSize=25&amp;fontColor=58A6FF&amp;fontAlignY=52" alt="Open Source Contributions" />
-
-<p>Small, focused changes inside codebases I did not create.</p>
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>⌨️ Native terminal selection</h3>
-
-Restored normal mouse selection and clipboard copying in HADES CLI by removing unnecessary global mouse capture.
-<p><code>Rust</code> <code>Ratatui</code> <code>Crossterm</code></p>
-
-<a href="https://github.com/PareekshithPalat/HADES_CLI/pull/32"><img src="https://img.shields.io/badge/MERGED-PR%20%2332-238636?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="HADES CLI pull request 32 merged" /></a>
-</td>
-<td width="50%" valign="top">
-
-<h3>↔️ Portable conversation history</h3>
-
-Added import and export across HADES, ChatGPT, Claude, and Markdown, including format detection, storage integration, and tests.
-<p><code>Rust</code> <code>Serialization</code> <code>CLI</code></p>
-
-<a href="https://github.com/PareekshithPalat/HADES_CLI/pull/30"><img src="https://img.shields.io/badge/MERGED-PR%20%2330-238636?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="HADES CLI pull request 30 merged" /></a>
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<a href="https://github.com/zed-industries/zed/pull/63611"><img src="https://img.shields.io/badge/ZED-EDITOR%20FALLBACK-18181B?style=flat-square&amp;logo=zedindustries&amp;logoColor=white" alt="Zed editor fallback proposal" /></a>
-<a href="https://github.com/sonamii/next-bench/pull/33"><img src="https://img.shields.io/badge/NEXT%20BENCH-DOCUMENTATION-18181B?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Next Bench documentation pull request" /></a>
-<a href="https://github.com/pulls?q=is%3Apr%20author%3AThatKJ%20-user%3AThatKJ"><img src="https://img.shields.io/badge/VIEW-ALL%20PULL%20REQUESTS-8B5CF6?style=flat-square&amp;logo=github&amp;logoColor=white" alt="View all pull requests" /></a>
-</div>
-
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=TOOLKIT&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="Toolkit" />
-
-<p><sub>TOOLS I HAVE USED TO SHIP PROJECTS, RUN EXPERIMENTS, AND CONTRIBUTE CODE</sub></p>
-
-
-<img src="https://skillicons.dev/icons?i=python&amp;theme=dark" width="36" height="36" alt="Python" title="Python" />
-<img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" />
-<img src="https://skillicons.dev/icons?i=js&amp;theme=dark" width="36" height="36" alt="JavaScript" title="JavaScript" />
-<img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" width="36" height="36" alt="C++" title="C++" />
-<img src="https://skillicons.dev/icons?i=rust&amp;theme=dark" width="36" height="36" alt="Rust" title="Rust" />
-<img src="https://skillicons.dev/icons?i=react&amp;theme=dark" width="36" height="36" alt="React" title="React" />
-<img src="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" width="36" height="36" alt="Next.js" title="Next.js" />
-<img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" width="36" height="36" alt="Tailwind CSS" title="Tailwind CSS" />
-<img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="36" height="36" alt="PostgreSQL" title="PostgreSQL" />
-<img src="https://skillicons.dev/icons?i=supabase&amp;theme=dark" width="36" height="36" alt="Supabase" title="Supabase" />
-<img src="https://skillicons.dev/icons?i=redis&amp;theme=dark" width="36" height="36" alt="Redis" title="Redis" />
-<img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="36" height="36" alt="Git" title="Git" />
-<img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="36" height="36" alt="Docker" title="Docker" />
-<img src="https://skillicons.dev/icons?i=cmake&amp;theme=dark" width="36" height="36" alt="CMake" title="CMake" />
-<img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="36" height="36" alt="Linux" title="Linux" />
-<img src="https://skillicons.dev/icons?i=vercel&amp;theme=dark" width="36" height="36" alt="Vercel" title="Vercel" />
-
-
-<img src="https://img.shields.io/badge/COMPUTER%20VISION-OpenCV-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="Computer Vision with OpenCV" />
-<img src="https://img.shields.io/badge/INFERENCE-ONNX-005CED?style=for-the-badge&amp;logo=onnx&amp;logoColor=white" alt="Inference with ONNX" />
-
-</div>
-
-
-<table>
-<tr>
-<td align="center">
-
-<h3>How I build</h3>
-
-<strong>Understand the problem → build the smallest useful version → test reality → improve the right layer.</strong>
-
-
-
-I care about what happens after the first successful run: failure cases, clear interfaces, reproducible results, and documentation someone else can follow.
-</td>
-</tr>
-</table>
-
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=80&amp;text=GITHUB%20ACTIVITY&amp;fontSize=25&amp;fontColor=58A6FF&amp;fontAlignY=52" alt="GitHub Activity" />
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/ThatKJ/ThatKJ/output/github-contribution-grid-snake.svg" alt="Kirtan's animated GitHub contribution activity" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-dark.svg" width="100%" alt="Kirtan Joshi (@ThatKJ). AI, software, products, systems. A loop: observe, decide, act, verify.">
 </picture>
 
-<br />
-<br />
+### I build software that has to work outside the demo.
 
-<a href="https://github.com/ThatKJ">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ThatKJ&amp;theme=github-compact&amp;hide_border=true&amp;area=true" width="100%" alt="Kirtan's GitHub contribution graph" />
-</a>
+CS student at Newton School of Technology, Bangalore. I take ideas from a rough sketch to something people can run, then check whether it actually works. Recent work has taken me from a C++ camera-control loop to AI agents that pay for outcomes over x402 to Rust terminal internals.
 
-<br />
-<br />
+[awoken.in](https://awoken.in) · [LinkedIn](https://linkedin.com/in/kirtan-joshi2412) · [Email](mailto:kirtan120007@gmail.com) · [Pull requests](https://github.com/search?q=author%3AThatKJ+is%3Apr+-user%3AThatKJ&type=pullrequests)
 
-<a id="lets-connect"></a>
-<img src="https://capsule-render.vercel.app/api?type=transparent&amp;height=75&amp;text=LET'S%20CONNECT&amp;fontSize=25&amp;fontColor=8B5CF6&amp;fontAlignY=52" alt="Let's Connect" />
+```text
+building      Awoken · AI lead follow-up
+exploring     agents that pay, verify, retry
+contributing  focused upstream fixes
+aiming        GSoC 2027
+```
 
-<p><strong>Have an idea, a stubborn bug, or something worth building?</strong></p>
+## Selected work
 
-<a href="mailto:kirtan120007@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Kirtan" /></a>
-<a href="https://linkedin.com/in/kirtan-joshi2412"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Kirtan on LinkedIn" /></a>
-<a href="https://twitter.com/kirtan026832614"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Kirtan on X" /></a>
-<a href="https://github.com/ThatKJ?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Kirtan's GitHub repositories" /></a>
-<br />
-<br />
+### Awoken &nbsp;<sub>early-stage venture</sub>
 
-<sub>Bengaluru, India · Usually learning, building, or fixing something.</sub>
-</div>
+**AI follow-up for real-estate sales teams.** Teams pay for leads, then lose them to one unanswered call and a flood of newer ones. Awoken starts with the leads a team has already written off (a CSV export is enough), re-engages them over WhatsApp, qualifies project, budget, location and timeline, and hands interested buyers back to sales with the conversation attached. It sits alongside the CRM instead of replacing it.
+
+<sub>Next.js · TypeScript · Tailwind · Supabase</sub><br>
+[awoken.in ↗](https://awoken.in)
+
+### Margin402 &nbsp;<sub>hackathon prototype · Algorand Testnet</sub>
+
+**An AI agent buys a verified outcome at a fixed price, not every failed attempt.** Margin402 picks a provider, pays it over x402, checks the result against hidden tests, and retries or escalates until it passes. If the run costs more than the contract, Margin402 absorbs the loss: one documented run charged $1.20, spent $1.28 across four provider payments, and returned code passing 8/8 tests.
+
+Every payment is a real x402 round-trip (402 → sign → verify → settle) on Algorand Testnet, with job state in Redis. The provider market is simulated, and the repo says so.
+
+<sub>TypeScript · Next.js · x402 · Algorand · Redis</sub><br>
+[live demo ↗](https://margin402.vercel.app) · [source](https://github.com/ThatKJ/margin402)
+
+### FSOC &nbsp;<sub>simulation · Smart India Hackathon 2026</sub>
+
+**Keeping a moving optical terminal pointed at its receiver using only a camera.** Built with Team IRODOV for ISRO's SIH26169 problem statement. A C++20 closed loop renders a moving beacon, detects it (classical, a 27k-parameter ONNX network through OpenCV DNN, or a hybrid), gates detections with an alpha–beta tracker, and steers a rate-limited virtual pan/tilt camera with PID. A Next.js Mission Control makes every run inspectable.
+
+In simulation, closing the loop cut RMS pointing error from 6.45° to 0.55°. The tracker removed about 99.5% of severe outliers but cost 20 points of detection coverage. The repo documents that tradeoff instead of hiding it. Real-camera input is in progress.
+
+<sub>C++20 · OpenCV · ONNX · CMake · Next.js</sub><br>
+[source](https://github.com/ThatKJ/FSOC) · [results](https://github.com/ThatKJ/FSOC#measured-results) · [Mission Control ↗](https://fsoc-iota.vercel.app)
+
+### GEC Platform &nbsp;<sub>interactive explainer</sub>
+
+**An ESP32 electricity-monitoring rig, explained in 3D.** Four pages walk through the hardware, signal path, waveforms and circuit schematic of an ACS712 / ZMPT101B voltage-and-current sensing system.
+
+<sub>Next.js · TypeScript · Three.js</sub><br>
+[live ↗](https://gec-platform.vercel.app) · [source](https://github.com/ThatKJ/gec-platform)
+
+## Open source
+
+I learn by working inside codebases I didn't design: reproduce the problem, find the layer it actually lives in, make the smallest change that fixes it, and prove it with tests.
+
+<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[HADES CLI #32](https://github.com/PareekshithPalat/HADES_CLI/pull/32)** · Rust<br>
+Restored native text selection and copy in the terminal UI. Root cause: the TUI enabled global mouse capture at startup even though every interaction is keyboard-driven, so terminals sent drags to the app instead of selecting text. Removed the capture on init, kept the cleanup on exit.<br>
+<sub>Ratatui · Crossterm</sub>
+
+<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[HADES CLI #30](https://github.com/PareekshithPalat/HADES_CLI/pull/30)** · Rust<br>
+Added `/export` and `/import` for conversation history. Exports Markdown or JSON; imports HADES exports, ChatGPT `conversations.json`, Claude transcripts and generic Markdown, with format detection, and restores them into the active context. Spans the storage, core and TUI crates.<br>
+<sub>serde · CLI commands · multi-crate workspace</sub>
+
+<img src="assets/status-merged.svg" alt="Merged" height="20"> &nbsp;**[awesome-ai-apps #317](https://github.com/Arindam200/awesome-ai-apps/pull/317)** · Python<br>
+Fixed a FastAPI service that paired a wildcard CORS origin with `allow_credentials=True`. Origins now come from an explicit allow-list that fails closed when unset, with regression tests for the edge cases raised in review.<br>
+<sub>FastAPI · CORS · pytest</sub>
+
+<img src="assets/status-open.svg" alt="Open" height="20"> &nbsp;**[Node.js #66376](https://github.com/nodejs/node/pull/66376)** · C++<br>
+Backports two V8 fixes for a wasm import-wrapper lifetime race to `v24.x-staging`. A wrapper already marked as dying could be re-added to a `WasmCodeRefScope`, tripping a JIT allocation `CHECK`. An independent tester reported 0 crashes in 191 repro runs with the patch, versus 8 in 149 without.<br>
+<sub>V8 · WebAssembly · memory lifetimes</sub>
+
+<img src="assets/status-open.svg" alt="Open" height="20"> &nbsp;**[LLMVault #44](https://github.com/CyberSunil/LLMVault/pull/44)** · Python<br>
+Brute-force protection for flag submissions: per-player, per-challenge attempt tracking, a 30-second cooldown after five misses, and HTTP 429 with `retry_after`. 19 tests.
+
+## More things I've built
+
+| Project | What it is | Stack |
+|---|---|---|
+| [ChallanCheck](https://github.com/ThatKJ/challancheck) | Checks whether a traffic e-challan's photo actually shows the cited violation. A vision API observes; deterministic rules decide. | JavaScript · AWS Lambda · Rekognition |
+| [Beacontra](https://github.com/ThatKJ/Beacontra) | Ranks marketplace listings for brand review by combining price, seller and reverse-image evidence. | TypeScript · SerpApi |
+| [Intervu](https://github.com/ThatKJ/team-vector) | Adaptive interview engine: each answer updates a model of what the candidate knows and picks the next question. 48-hour team build. | Next.js · TypeScript · Supabase |
+| [ring-escape](https://github.com/ThatKJ/ring-escape) | Arcade game: rotate concentric rings to guide a ball out of the maze. | Python · Pygame |
+| [Portfolio](https://portfolio-kirtan.vercel.app) | Personal site. | React · Vite · Framer Motion |
+| [FolderPrettifier](https://github.com/ThatKJ/FolderPrettifier) | Sorts a messy folder by file type without overwriting duplicates. | Python |
+| [Airline Reservation System](https://github.com/ThatKJ/Airline-Reservation-System) | Terminal booking system with user and admin roles. School group project. | Python · MySQL |
+
+## Toolbox
+
+`LANGUAGES` &nbsp;TypeScript · Python · C++ · JavaScript · Rust<br>
+`PRODUCT` &nbsp;Next.js · React · Tailwind · Three.js · Framer Motion<br>
+`VISION` &nbsp;OpenCV DNN · ONNX · CMake<br>
+`DATA / INFRA` &nbsp;Supabase · PostgreSQL · Redis · MySQL · AWS Lambda<br>
+`AGENTS / PAYMENTS` &nbsp;x402 · Algorand
+
+## How I work
+
+**Understand the problem → build the smallest useful version → test it against reality → fix the right layer.**
+
+That's why FSOC publishes its counterexamples next to its best numbers, Margin402 has a "what is real vs. simulated" table, and my pull requests start with the root cause.
+
+---
+
+**Working on something where the interface, the backend and the failure cases all matter?** I'd like to hear about it.
+
+[Email](mailto:kirtan120007@gmail.com) · [LinkedIn](https://linkedin.com/in/kirtan-joshi2412) · [X](https://x.com/kirtan026832614) · [awoken.in](https://awoken.in)
